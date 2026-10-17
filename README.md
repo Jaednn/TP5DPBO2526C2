@@ -6,9 +6,7 @@ Saya Afzaal Zaidan Febryanto dengan NIM 2508692 mengerjakan Tugas Praktikum 5 da
 ---
 
 ## 2. Desain dan Fungsi Program
-Program ini merupakan pengembangan dari aplikasi pengelolaan data karyawan berbasis desktop (**Java Swing GUI**) pada TP4 yang kini telah diintegrasikan secara penuh dengan basis data relasional **MySQL** menggunakan **Java Database Connectivity (JDBC)**. 
-
-Sesuai spesifikasi TP5, penyimpanan sementara berbasis memori (`ArrayList<Person>`) telah dihapus sepenuhnya dan digantikan oleh operasi **CRUD** (*Create, Read, Update, Delete*) yang terhubung langsung ke tabel `person` pada database `db_people`. Program juga dilengkapi dengan validasi *input* kosong serta pencegahan duplikasi *Primary Key* (`id`).
+Program ini merupakan pengembangan dari aplikasi pengelolaan data karyawan berbasis desktop (**Java Swing GUI**) pada TP4 yang kini telah diintegrasikan secara penuh dengan basis data relasional **MySQL** menggunakan **Java Database Connectivity (JDBC)**.
 
 ### a. Class Database (Koneksi & Eksekusi Query JDBC)
 Class ini berfungsi sebagai jembatan komunikasi antara aplikasi Java dengan server database MySQL (`jdbc:mysql://localhost:3306/db_people`).
