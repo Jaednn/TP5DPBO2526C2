@@ -123,8 +123,6 @@ Alur kerja program berjalan secara terstruktur sebagai berikut:
 
 ## 5. Dokumentasi Program
 
-> *Catatan: Ganti link gambar/video di bawah ini dengan screenshot atau screen record terbaru dari hasil jalannya program TP5 kamu (pastikan menampilkan operasi CRUD serta dialog error kolom kosong & error ID duplikat).*
-
 ### a. Tampilan Awal Program (Read Data dari Database)
 Tampilan program saat pertama kali dibuka, memuat data karyawan langsung dari tabel `person` pada database MySQL.
 
